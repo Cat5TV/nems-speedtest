@@ -1,36 +1,14 @@
-# fast-cli
+# nems-speedtest (based on fast-cli)
 
-> Test your download and upload speed using [fast.com](https://fast.com)
+> Test download and upload speed using [fast.com](https://fast.com)
 
 ![](screenshot.gif)
 
-## Install
 
-Ensure you have [Node.js](https://nodejs.org) version 8+ installed. Then run the following:
+## Note
 
-```
-$ npm install --global fast-cli
-```
+This fork is not meant for general use. Please look at fast-cli if you're not a NEMS user (as it's unlikely this fork will work outside NEMS Linux).
 
-## Usage
-
-```
-$ fast --help
-
-  Usage
-    $ fast
-    $ fast > file
-
-  Options
-    --upload, -u   Measure upload speed in addition to download speed
-    --single-line  Reduce spacing and output to a single line
-    --json         JSON output
-
-  Examples
-    $ fast --upload > file && cat file
-    17 Mbps
-    4.4 Mbps
-```
 
 ##### Upload speed
 
